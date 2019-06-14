@@ -4,7 +4,7 @@ Transcode audio files to MP3 with parallel instances of FFMPEG
     This script will recursively transcode all of the audio files that it sees within a directory and any sub directories present within your current working directory.
 ### Make executable: 
     chmod u+x flac_to_mp3
-### Move to your bin directory
+### Move to your bin directory:
     mv flac_to_mp3 ~/bin/flac_to_mp3
 ### To run: 
     Navigate to the directory containing your audio files and run
