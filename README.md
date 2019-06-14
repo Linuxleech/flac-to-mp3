@@ -12,4 +12,4 @@ Transcode audio files to MP3 with parallel instances of FFMPEG
 
 Convert audio files to MP3 
 :--------------------------------:
-[![linuxleech audio files to mp3](http://img.youtube.com/vi/_PMpxfhqNxQ/0.jpg)](https://www.youtube/watch?v=_PMpxfhqNxQ "Audio files to mp3 in parallel")  
+[![linuxleech audio files to mp3](http://img.youtube.com/vi/_PMpxfhqNxQ/0.jpg)](https://www.youtube.com/watch?v=_PMpxfhqNxQ "Audio files to mp3 in parallel")  
