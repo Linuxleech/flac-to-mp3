@@ -95,12 +95,12 @@ if __name__ == "__main__":
                 FAILED_JOBS.append(job)
         MESSAGE = (f"Transcode Finished! \r {len(PROCESSES)-len(FAILED_JOBS)}/{len(PROCESSES)} "
                    f"Audio files transcoded in \r{time.time() - STARTTIME:.4f} seconds")
-        subprocess.run(["notify-send", "--urgency=low", MESSAGE])
+        #subprocess.run(["notify-send", "--urgency=low", MESSAGE])  # For notifications upon completion on Linux OSe's uncomment this line
         if len(FAILED_JOBS) > 0:       
             with open("nautilus-transcode.log", 'a+') as f:
                 for failedJob in FAILED_JOBS:
                     f.write(f"{failedJob.timestamp} args:{failedJob.args}"
                             f"return code:{failedJob.returncode}\n")
-
+    print(MESSAGE)
     print("Done")
     sys.exit(0)
